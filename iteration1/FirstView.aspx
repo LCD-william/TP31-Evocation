@@ -1,9 +1,9 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Index.aspx.cs" Inherits="iteration1_Index" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="FirstView.aspx.cs" Inherits="iteration1_FirstView" %>
 
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
+ <html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title></title>
     <link rel="stylesheet" type="text/css" href="../css/reset.css" />
@@ -12,21 +12,21 @@
 </head>
 <body>
     <form id="form1" runat="server">
-   <div id="hd" class="clearfix" style="background: #A3A3A3">
+   <div id="hd" class="clearfix">
 		<a href="index.aspx" class="hd-logo fl">
 			<img src="../images/logo.png">
 		</a>
-		<div class="hd-nav fl" >
+		<div class="hd-nav fl">
 			<ul class="clearfix">
 				<li class="on">
 					<h3><a href="index.aspx">Home</a></h3>
 				</li>
 				<li>
-					<h3><a href="Questions.aspx">Questionnaire</a></h3>
+					<h3><a href="Questions.aspx">Questions</a></h3>
 					<div class="subnav">
 						<div class="sub-inner clearfix">
-							<a href="First.aspx">First Questionnaire</a>
-							<a href="Second.aspx">Second Questionnaire</a>							 
+							<a href="First.aspx">First Question</a>
+							<a href="Second.aspx">Second Question</a>							 
 						</div>
 					</div>
 				</li>
@@ -48,54 +48,30 @@
 		</div>
 		 
 	</div>
-        <div id="banner" class="swiper-container">
-	  	<div class="swiper-wrapper">
-	    	<div class="swiper-slide" style="background: #A3A3A3"> 
-	    			 
-	    			<div  style="width:100%">
-	    				<img src="../images/lb1.jpg" alt=""  style="width:1200px;height:400px; padding-top:40px; padding-left:150px">
-	    			</div>
-	    		 
-	    	</div>
-	    	<div class="swiper-slide" style="background: #A3A3A3">
-	    		<div  style="width:100%">
-	    				<img src="../images/lb1.jpg" alt=""  style="width:1200px;height:500px; padding-top:0px; padding-left:150px">
-	    			</div>
-	    	</div>
-	    	<div class="swiper-slide" style="background: #A3A3A3">
-	    		<div  style="width:100%">
-	    				<img src="../images/lb1.jpg" alt=""  style="width:1200px;height:500px; padding-top:0px; padding-left:150px">
-	    			</div>
-	    	</div>
-	  	</div>
-	  	<div class="banner-pagination swiper-pagination"></div>
-	</div>
-     <div id="main">
-		<div class="index-sec1">
-			 
-			<div class="wp">
-				 <ul class="clearfix">
-					<li style="width:400px">
-						<div class="item-box1">
-							<a href="Depression.aspx" >                                
-									<img class="img" src="../images/f2.png" >								 </a>
-							
-						</div>
-					</li>
-					 <li style="width:400px">
-						<div class="item-box1">
-							<a href="Cause.aspx" ><img class="img" src="../images/f22.png" >                         </a>
-							
-						</div>
-					</li>                    <li style="width:400px">
-						<a href="Clinical.aspx" ><img class="img" src="../images/f222.png" > </a>
-					</li>
-					 
-				</ul>
-			</div>
-		</div>
-		
-	</div>
+         
+        <div id="main">
+            <div class="index-sec1">
+                <div class="title">
+                    <h3><span>Answer Score</span></h3>
+                    <p></p>
+                </div>
+                <div class="wp">
+                    <ul class="clearfix">
+                        <li>
+                            <div class="item-box1">
+                                <div class="inner-wp1">
+                                    <p style="color:red; font-size:25px" >
+                                        <asp:Label ID="Label1" runat="server"></asp:Label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="FirstReport.aspx" title="ViewPeport" style="color:red" target="_blank">ViewReport </a> 
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
          <iframe height="400" width="100%" frameborder="no" src="https://nikitaahans.shinyapps.io/TP31_evocation_2/"> </iframe>
    <div id="ft">		<div class="copyright">			<p class="wp">Copyright ©  All Rights Reserved.</p>		</div>
 	</div>

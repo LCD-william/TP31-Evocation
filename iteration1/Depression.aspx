@@ -1,9 +1,8 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Index.aspx.cs" Inherits="iteration1_Index" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Depression.aspx.cs" Inherits="iteration1_Depression" %>
 
 <!DOCTYPE html>
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title></title>
     <link rel="stylesheet" type="text/css" href="../css/reset.css" />
@@ -12,21 +11,21 @@
 </head>
 <body>
     <form id="form1" runat="server">
-   <div id="hd" class="clearfix" style="background: #A3A3A3">
+   <div id="hd" class="clearfix">
 		<a href="index.aspx" class="hd-logo fl">
 			<img src="../images/logo.png">
 		</a>
-		<div class="hd-nav fl" >
+		<div class="hd-nav fl">
 			<ul class="clearfix">
 				<li class="on">
 					<h3><a href="index.aspx">Home</a></h3>
 				</li>
 				<li>
-					<h3><a href="Questions.aspx">Questionnaire</a></h3>
+					<h3><a href="Questions.aspx">Questions</a></h3>
 					<div class="subnav">
 						<div class="sub-inner clearfix">
-							<a href="First.aspx">First Questionnaire</a>
-							<a href="Second.aspx">Second Questionnaire</a>							 
+							<a href="First.aspx">First Question</a>
+							<a href="Second.aspx">Second Question</a>							 
 						</div>
 					</div>
 				</li>
@@ -48,30 +47,9 @@
 		</div>
 		 
 	</div>
-        <div id="banner" class="swiper-container">
-	  	<div class="swiper-wrapper">
-	    	<div class="swiper-slide" style="background: #A3A3A3"> 
-	    			 
-	    			<div  style="width:100%">
-	    				<img src="../images/lb1.jpg" alt=""  style="width:1200px;height:400px; padding-top:40px; padding-left:150px">
-	    			</div>
-	    		 
-	    	</div>
-	    	<div class="swiper-slide" style="background: #A3A3A3">
-	    		<div  style="width:100%">
-	    				<img src="../images/lb1.jpg" alt=""  style="width:1200px;height:500px; padding-top:0px; padding-left:150px">
-	    			</div>
-	    	</div>
-	    	<div class="swiper-slide" style="background: #A3A3A3">
-	    		<div  style="width:100%">
-	    				<img src="../images/lb1.jpg" alt=""  style="width:1200px;height:500px; padding-top:0px; padding-left:150px">
-	    			</div>
-	    	</div>
-	  	</div>
-	  	<div class="banner-pagination swiper-pagination"></div>
-	</div>
+         
      <div id="main">
-		<div class="index-sec1">
+		 <div class="index-sec1">
 			 
 			<div class="wp">
 				 <ul class="clearfix">
@@ -93,9 +71,26 @@
 					 
 				</ul>
 			</div>
+		</div>         <div class="index-sec1" style="width: 100%; padding-top:1px" >
+             <div class="title">
+				<h3><span>Depression</span></h3>			</div>
+         <div class="wp" style="width: 100%" >				<ul class="clearfix" style="width: 100%" >
+                    <li style="width: 100%" >
+                    <div class="item-box" style="width: 99%" align="left" >
+                                <div class="inner-wp" style="width: 99%" align="left" >
+                                    <p style="width: 99%" align="left" >Depression is an umbrella term for a range of disorders known as depressive disorders. As a disorder, depression or major depressive disorder (MDD) affects not only a person's personal mood and inner thoughts, but also the affected individual's external physical functioning. In a depressed state, a person's feelings, behaviors, or thoughts may be diminished, along with a general lack of physical and mental health. Depression can include one or all of the following feelings: anxiety, emptiness, hopelessness, guilt, irritability, irritability, or sadness. In addition, depression is usually caused by a combination of genetic, environmental and psychological factors.</p>
+                                  
+                                </div>
+
+                            </div>
+                        </li>
+ </ul>
+			</div>
+
 		</div>
-		
 	</div>
+
+
          <iframe height="400" width="100%" frameborder="no" src="https://nikitaahans.shinyapps.io/TP31_evocation_2/"> </iframe>
    <div id="ft">		<div class="copyright">			<p class="wp">Copyright ©  All Rights Reserved.</p>		</div>
 	</div>

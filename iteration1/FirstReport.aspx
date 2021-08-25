@@ -1,4 +1,5 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="First.aspx.cs" Inherits="iteration1_First" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="FirstReport.aspx.cs" Inherits="iteration1_FirstReport" %>
+
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head id="Head1" runat="server">
@@ -10,7 +11,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <div id="hd" class="clearfix" style="background: #A3A3A3">
+        <div id="hd" class="clearfix">
             <a href="index.aspx" class="hd-logo fl">
                 <img src="../images/logo.png">
             </a>
@@ -54,9 +55,22 @@
                 </div>
                 <div class="wp">
                     <ul class="clearfix">
+
+                         <li style="width: 99%">
+                            <div class="item-box">
+                                <div class="inner-wp">
+
+                                    <p>
+                                        <img src="../images/Print.png"  onclick="print();"/>
+                                       
+                                    </p>
+                                </div>
+
+                            </div>
+                        </li>
                         <li style="width: 100%">
                             <div class="item-box">
-                             <p style="width:100%"  align="left">  The Centre for Epidemiologic Studies Depression Scale (CES-D Scale) was developed for use in studies of the epidemiology of depressive symptomatology in the general population, and therefore it is a short (20 questions on the scale), structured self-report measure. The scale has high internal consistency, acceptable test-retest stability, excellent concurrent validity by clinical and self-report criteria, and substantial evidence of construct validity.
+                             <p style="width:80%">  The Centre for Epidemiologic Studies Depression Scale (CES-D Scale) was developed for use in studies of the epidemiology of depressive symptomatology in the general population, and therefore it is a short (20 questions on the scale), structured self-report measure. The scale has high internal consistency, acceptable test-retest stability, excellent concurrent validity by clinical and self-report criteria, and substantial evidence of construct validity.
                         </p>
                                    </div>
                             <div class="item-box">
@@ -327,6 +341,7 @@
                                            <tr>
                                            <td style= "Text-Align:left; ">
                                         <asp:RadioButtonList ID="RadioButtonList13" runat="server" RepeatColumns="1">
+                                           
                                             <asp:ListItem Text="Rarely or none of the time (<1 day)" Value="0">Rarely or none of the time (<1 day)</asp:ListItem>
                                             <asp:ListItem Text="Some or a little of the time (1-2 days)" Value="1">Some or a little of the time (1-2 days)</asp:ListItem>
                                             <asp:ListItem Text="Occasionally or a moderate amount of the time (3-4 days)" Value="2">Occasionally or a moderate amount of the time (3-4 days)</asp:ListItem>
@@ -493,7 +508,8 @@
                                 <div class="inner-wp">
 
                                     <p>
-                                        <asp:ImageButton ID="ImageButton1" runat="server" ImageUrl="~/images/Sub.png" OnClick="ImageButton1_Click" />
+                                        <img src="../images/Print.png"  onclick="print();"/>
+                                       
                                     </p>
                                 </div>
 

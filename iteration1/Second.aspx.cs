@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-public partial class iteration1_First : System.Web.UI.Page
+public partial class iteration1_Second : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
@@ -179,6 +179,6 @@ public partial class iteration1_First : System.Web.UI.Page
 
         Session["score"] = score.ToString();
         Session["strScore"] = strScore.ToString();
-        Page.ClientScript.RegisterStartupScript(this.GetType(), "", "<script>alert('Submit Success！');window.location.href='FirstView.aspx'</script>");
+        Page.ClientScript.RegisterStartupScript(this.GetType(), "", "<script>alert('Submit Success！');window.location.href='SecondView.aspx'</script>");
     }
 }
