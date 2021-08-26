@@ -55,7 +55,13 @@
 			<div class="wp">
 				 <ul class="clearfix">
 					<li style="width:400px">
-						<div class="item-box1">
+						<div class="item-box1">                            <style>
+          a:hover img {
+            filter: alpha(Opacity=80);
+            -moz-opacity: 0.8;
+            opacity: 0.8;
+        }</style>
+
 							<a href="Depression.aspx" >                                
 									<img class="img" src="../images/f2.png" >								 </a>
 							
@@ -79,7 +85,7 @@
                     <li style="width: 100%" >
                     <div class="item-box" style="width: 99%" align="left" >
                                 <div class="inner-wp" style="width: 99%" align="left" >
-                                    <p style="width: 99%" align="left" >International students face a unique set of psychosocial stressors that may increase their vulnerability to depression and anxiety disorders. For them, the transition to college can be a major source of stress, and they may experience issues such as homesickness and difficulty balancing a high academic workload with other priorities. Academic performance, pressure to succeed, post-graduation plans, body image, and self-esteem are top concerns for international students, and the experience of these issues is strongly associated with moderate to extreme stress.</p>
+                                    <p style="width: 99% ;color:black" align="left" >International students face a unique set of psychosocial stressors that may increase their vulnerability to depression and anxiety disorders. For them, the transition to college can be a major source of stress, and they may experience issues such as homesickness and difficulty balancing a high academic workload with other priorities. Academic performance, pressure to succeed, post-graduation plans, body image, and self-esteem are top concerns for international students, and the experience of these issues is strongly associated with moderate to extreme stress.</p>
                                     <p>
                                         
 Symptoms of depression include<br />

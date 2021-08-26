@@ -53,18 +53,18 @@
 	    	<div class="swiper-slide" style="background: #A3A3A3"> 
 	    			 
 	    			<div  style="width:100%">
-	    				<img src="../images/lb1.jpg" alt=""  style="width:1200px;height:400px; padding-top:40px; padding-left:150px">
+	    				<img src="../images/lb1.jpg" alt=""  style="width:1200px;height:450px; padding-top:40px; padding-left:350px">
 	    			</div>
 	    		 
 	    	</div>
 	    	<div class="swiper-slide" style="background: #A3A3A3">
-	    		<div  style="width:100%">
-	    				<img src="../images/lb1.jpg" alt=""  style="width:1200px;height:500px; padding-top:0px; padding-left:150px">
+	    		<div  style="width:100%">                    
+	    				<img src="../images/lb1.jpg" alt=""  style="width:1200px;height:450px; padding-top:0px; padding-left:350px"><br />                    <a href="Questions.aspx"><img src="../images/ques.png" style="padding-left:350px" title="Redirct Questions Page"/> <br /></a>
 	    			</div>
 	    	</div>
 	    	<div class="swiper-slide" style="background: #A3A3A3">
 	    		<div  style="width:100%">
-	    				<img src="../images/lb1.jpg" alt=""  style="width:1200px;height:500px; padding-top:0px; padding-left:150px">
+	    				<img src="../images/lb1.jpg" alt=""  style="width:1200px;height:450px; padding-top:0px; padding-left:350px">
 	    			</div>
 	    	</div>
 	  	</div>
@@ -76,7 +76,13 @@
 			<div class="wp">
 				 <ul class="clearfix">
 					<li style="width:400px">
-						<div class="item-box1">
+						<div class="item-box1">                             <style>
+          a:hover img {
+            filter: alpha(Opacity=80);
+            -moz-opacity: 0.8;
+            opacity: 0.8;
+        }</style>
+
 							<a href="Depression.aspx" >                                
 									<img class="img" src="../images/f2.png" >								 </a>
 							

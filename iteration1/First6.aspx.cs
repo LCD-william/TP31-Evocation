@@ -5,17 +5,21 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-public partial class iteration1_First : System.Web.UI.Page
+public partial class iteration1_First6 : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
+
         if (!IsPostBack)
         {
-            Session["score"] = null;
-            Session["strScore"] = null;
+            if (Session["score"] == null || Session["strScore"] == null || Session["score"].ToString() == "" || Session["strScore"].ToString() == "")
+            {
+                Page.ClientScript.RegisterStartupScript(this.GetType(), "", "<script>alert('Data Load Fail ！');window.location.href='Index.aspx'</script>");
+                return;
+            }
         }
     }
-     
+
     protected void ImageButton2_Click(object sender, ImageClickEventArgs e)
     {
         // not Null
@@ -27,10 +31,10 @@ public partial class iteration1_First : System.Web.UI.Page
         }
         int score = 0;
         string strScore = "";
-         score = Convert.ToInt32(this.RadioButtonList1.SelectedValue);
+        score = Convert.ToInt32(this.RadioButtonList1.SelectedValue);
         strScore = this.RadioButtonList1.SelectedValue + "|";
-        Session["score"] = score.ToString();
-        Session["strScore"] = strScore.ToString();
-        Response.Redirect("First1.aspx");
+        Session["score"] = (Convert.ToInt32(Session["score"].ToString()) + score).ToString();
+        Session["strScore"] = Session["strScore"] + strScore.ToString();
+        Response.Redirect("First7.aspx");
     }
 }

@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Questions.aspx.cs" Inherits="iteration1_Questions" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="First5.aspx.cs" Inherits="iteration1_First5" %>
 
 <!DOCTYPE html>
 
@@ -22,11 +22,11 @@
                         <h3><a href="index.aspx">Home</a></h3>
                     </li>
                     <li class="on">
-                        <h3><a href="Questions.aspx">Questionnaire</a></h3>
+                        <h3><a href="Questions.aspx">Questions</a></h3>
                         <div class="subnav">
                             <div class="sub-inner clearfix">
-                                <a href="First.aspx">First Questionnaire</a>
-                                <a href="Second.aspx">Second Questionnaire</a>
+                                <a href="First.aspx">First Question</a>
+                                <a href="Second.aspx">Second Question</a>
                             </div>
                         </div>
                     </li>
@@ -49,44 +49,44 @@
 
         </div>
 
-        <div id="main">
+         <div id="main">
             <div class="index-sec1">
                 <div class="title">
-                    <h3><span>Questionnaire</span></h3>
-                    <p> </p>
+                    <h3><span>Question Detail </span></h3>
                 </div>
                 <div class="wp">
                     <ul class="clearfix">
-                        <li>
-                            <div class="item-box1">
-                                <div class="inner-wp">
-                                   
-                                    <br />
-                                    <img src="../images/q1.png" />
-                                    
+                        <li style="width: 100%">
+                            <div class="item-box">
+                             <p style="width:100%"  align="left">  The Centre for Epidemiologic Studies Depression Scale (CES-D Scale) was developed for use in studies of the epidemiology of depressive symptomatology in the general population, and therefore it is a short (20 questions on the scale), structured self-report measure. The scale has high internal consistency, acceptable test-retest stability, excellent concurrent validity by clinical and self-report criteria, and substantial evidence of construct validity.
+                        </p>
+                                   </div>
+                            <div class="item-box">
+                                <div class="inner-wp" style="width: 99%">
+                                    <p>6. I felt depressed.</p>
+                                    <p style="width: 99%">
+                                       <table  style="width: 99%">
+                                           <tr>
+                                           <td style= "Text-Align:left; ">
+                                        &nbsp;<asp:RadioButtonList ID="RadioButtonList1" runat="server" RepeatColumns="1"   RepeatDirection="Horizontal"  >
+                                            <asp:ListItem Text="Rarely or none of the time (<1 day)" Value="0">Rarely or none of the time (<1 day)</asp:ListItem>
+                                            <asp:ListItem Text="Some or a little of the time (1-2 days)" Value="1">Some or a little of the time (1-2 days)</asp:ListItem>
+                                            <asp:ListItem Text="Occasionally or a moderate amount of the time (3-4 days)" Value="2">Occasionally or a moderate amount of the time (3-4 days)</asp:ListItem>
+                                            <asp:ListItem Text="Most or all of the time (5-7 days)" Value="3">Most or all of the time (5-7 days)</asp:ListItem>
+                                        </asp:RadioButtonList>
+                                               </td></tr>
+                                           </table>
+                                    </p>
                                 </div>
-                               
+                                <asp:ImageButton ID="ImageButton2" runat="server" ImageUrl="~/images/cont.png" Height="100px" OnClick="ImageButton2_Click" />
                             </div>
-                              
-                             <a href="First.aspx" style="color: red;padding-left:0px;"><img src="../images/continue.png"  /></a>
-                        </li>
-                        <li>
-                            <div class="item-box1">
-                                <div class="inner-wp">
-                                    
-                                    <br />
-                                 <img src="../images/q2.png" />
-                                </div>
-                                
-                            </div>
-                          
-                            <a href="Second.aspx" style="color: red;padding-left:0px;"><img src="../images/continue.png" /> </a>
-                        </li>
+ 
+
                     </ul>
                 </div>
             </div>
-        </div>
 
+        </div>
         <div id="ft">
             <div class="copyright">
                 <p class="wp">Copyright ©  All Rights Reserved.</p>

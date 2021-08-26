@@ -54,7 +54,13 @@
 			<div class="wp">
 				 <ul class="clearfix">
 					<li style="width:400px">
-						<div class="item-box1">
+						<div class="item-box1">                            <style>
+          a:hover img {
+            filter: alpha(Opacity=80);
+            -moz-opacity: 0.8;
+            opacity: 0.8;
+        }</style>
+
 							<a href="Depression.aspx" >                                
 									<img class="img" src="../images/f2.png" >								 </a>
 							
@@ -78,7 +84,7 @@
                     <li style="width: 100%" >
                     <div class="item-box" style="width: 99%" align="left" >
                                 <div class="inner-wp" style="width: 99%" align="left" >
-                                    <p style="width: 99%" align="left" >Depression is an umbrella term for a range of disorders known as depressive disorders. As a disorder, depression or major depressive disorder (MDD) affects not only a person's personal mood and inner thoughts, but also the affected individual's external physical functioning. In a depressed state, a person's feelings, behaviors, or thoughts may be diminished, along with a general lack of physical and mental health. Depression can include one or all of the following feelings: anxiety, emptiness, hopelessness, guilt, irritability, irritability, or sadness. In addition, depression is usually caused by a combination of genetic, environmental and psychological factors.</p>
+                                    <p style="width: 99%; color:black" align="left" >Depression is an umbrella term for a range of disorders known as depressive disorders. As a disorder, depression or major depressive disorder (MDD) affects not only a person's personal mood and inner thoughts, but also the affected individual's external physical functioning. In a depressed state, a person's feelings, behaviors, or thoughts may be diminished, along with a general lack of physical and mental health. Depression can include one or all of the following feelings: anxiety, emptiness, hopelessness, guilt, irritability, irritability, or sadness. In addition, depression is usually caused by a combination of genetic, environmental and psychological factors.</p>
                                   
                                 </div>
 
