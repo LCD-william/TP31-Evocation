@@ -58,8 +58,10 @@
 	    		 
 	    	</div>
 	    	<div class="swiper-slide" style="background: #A3A3A3">
-	    		<div  style="width:100%">                    
-	    				<img src="../images/lb1.jpg" alt=""  style="width:1200px;height:450px; padding-top:0px; padding-left:350px"><br />                    <a href="Questions.aspx"><img src="../images/ques.png" style="padding-left:350px" title="Redirct Questions Page"/> <br /></a>
+	    		<div  style="width:100%">                    <a href ="Questions.aspx">
+						<img src="../images/lb1.png" alt=""  style="width:1200px;height:450px; padding-top:0px; padding-left:350px"><br />
+                    </a>
+	    				                    
 	    			</div>
 	    	</div>
 	    	<div class="swiper-slide" style="background: #A3A3A3">
