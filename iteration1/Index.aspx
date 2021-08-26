@@ -52,21 +52,19 @@
 	  	<div class="swiper-wrapper">
 	    	<div class="swiper-slide" style="background: #A3A3A3"> 
 	    			 
-	    			<div  style="width:100%">
-	    				<img src="../images/lb1.jpg" alt=""  style="width:1200px;height:450px; padding-top:40px; padding-left:350px">
+	    			<div  style="width:100%; " align="center">
+	    				<img src="../images/lb1.jpg" alt=""  style="width:1200px;height:450px; padding-top:40px; ">
 	    			</div>
 	    		 
 	    	</div>
 	    	<div class="swiper-slide" style="background: #A3A3A3">
-	    		<div  style="width:100%">                    <a href ="Questions.aspx">
-						<img src="../images/lb1.png" alt=""  style="width:1200px;height:450px; padding-top:0px; padding-left:350px"><br />
-                    </a>
-	    				                    
+	    		<div  style="width:100%" align="center">                    
+                    <a href="Questions.aspx"> <img src="../images/lb1.png" alt=""  style="width:1200px;height:450px; padding-top:0px; "></a>
 	    			</div>
 	    	</div>
 	    	<div class="swiper-slide" style="background: #A3A3A3">
-	    		<div  style="width:100%">
-	    				<img src="../images/lb1.jpg" alt=""  style="width:1200px;height:450px; padding-top:0px; padding-left:350px">
+	    		<div  style="width:100%" align="center">
+	    				<img src="../images/lb1.jpg" alt=""  style="width:1200px;height:450px; padding-top:0px; ">
 	    			</div>
 	    	</div>
 	  	</div>
