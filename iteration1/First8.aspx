@@ -49,27 +49,30 @@
 
         </div>
 
-<div id="main">
+         <div id="main">
             <div class="index-sec1">
                 <div class="title">
                     <h3><span>Question Detail </span></h3>
                 </div>
-                 <div class="wp">
+               <div class="wp">
                     <ul class="clearfix">
                         <li style="width: 100%">
                             <div class="item-box">
-                             <p style="width:100%"  align="left">Thinking about the past 2 weeks, to what extent have you found the following things a problem?
-                        </p>
-                                   </div>
+
+                                <p style="width: 100%; color: black" align="center">
+                                    Thinking about the past 2 weeks, to what extent have you found the following things a problem?
+                                </p>
+                            </div>
                             <div class="item-box">
                                 <div class="inner-wp" style="width: 99%">
-                                    <p>9. Considering harming yourself, or committing suicide.</p>
+                               <p style="color:black">9. Considering harming yourself, or committing suicide </p>
+
                                     <p style="width: 99%">
                                        <table  style="width: 99%">
                                            <tr>
                                            <td style= "Text-Align:left; ">
                                         &nbsp;<asp:RadioButtonList ID="RadioButtonList1" runat="server" RepeatColumns="1"   RepeatDirection="Horizontal"  >
-                                              <asp:ListItem Text="Rarely or none of the time (<1 day)" Value="0">Never</asp:ListItem>
+                                             <asp:ListItem Text="Rarely or none of the time (<1 day)" Value="0">Never</asp:ListItem>
                                             <asp:ListItem Text="Some or a little of the time (1-2 days)" Value="1">Some of the time</asp:ListItem>
                                             <asp:ListItem Text="Occasionally or a moderate amount of the time (3-4 days)" Value="2">Most of the time</asp:ListItem>
                                             <asp:ListItem Text="Most or all of the time (5-7 days)" Value="3">Nearly all the time</asp:ListItem>

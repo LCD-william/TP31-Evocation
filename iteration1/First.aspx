@@ -1,4 +1,5 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="First.aspx.cs" Inherits="iteration1_First" %>
+
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head id="Head1" runat="server">
@@ -20,7 +21,7 @@
                         <h3><a href="index.aspx">Home</a></h3>
                     </li>
                     <li class="on">
-                         <h3><a href="Questions.aspx">Assessment</a></h3>
+                        <h3><a href="Questions.aspx">Assessment</a></h3>
                         <div class="subnav">
                             <div class="sub-inner clearfix">
                                 <a href="First.aspx">Have Depression?</a>
@@ -47,7 +48,7 @@
 
         </div>
 
-         <div id="main">
+        <div id="main">
             <div class="index-sec1">
                 <div class="title">
                     <h3><span>Question Detail </span></h3>
@@ -56,32 +57,33 @@
                     <ul class="clearfix">
                         <li style="width: 100%">
                             <div class="item-box">
-                            
-                                <p style="width:100%;color:black"  align="center">Thinking about the past 2 weeks, to what extent have you found the following things a problem?
-                        </p>
-                                   </div>
+
+                                <p style="width: 100%; color: black" align="center">
+                                    Thinking about the past 2 weeks, to what extent have you found the following things a problem?
+                                </p>
+                            </div>
                             <div class="item-box">
                                 <div class="inner-wp" style="width: 99%">
-                                    <p style="color:black">1. Difficulty focusing on everyday tasks </p>
-                                    <p style="width: 99%;color:black">
-                                       <table  style="width: 99%">
-                                           <tr>
-                                           <td style= "Text-Align:left; ">
-                                        &nbsp;<asp:RadioButtonList ID="RadioButtonList1" runat="server" RepeatColumns="1"   RepeatDirection="Horizontal" CellPadding="10" CellSpacing="10"  >
-                                            <asp:ListItem Text="Rarely or none of the time (<1 day)" Value="0">Never</asp:ListItem>
-                                            <asp:ListItem Text="Some or a little of the time (1-2 days)" Value="1">Some of the time</asp:ListItem>
-                                            <asp:ListItem Text="Occasionally or a moderate amount of the time (3-4 days)" Value="2">Most of the time</asp:ListItem>
-                                            <asp:ListItem Text="Most or all of the time (5-7 days)" Value="3">Nearly all the time</asp:ListItem>
-                                        </asp:RadioButtonList>
-                                               </td></tr>
-                                           </table>
+                                    <p style="color: black">1. Difficulty focusing on everyday tasks </p>
+                                    <p style="width: 99%; color: black">
+                                        <table style="width: 99%">
+                                            <tr>
+                                                <td style="Text-Align: left;">&nbsp;<asp:RadioButtonList ID="RadioButtonList1" runat="server" RepeatColumns="1" RepeatDirection="Horizontal" CellPadding="10" CellSpacing="10">
+                                                    <asp:ListItem Text="Rarely or none of the time (<1 day)" Value="0">Never</asp:ListItem>
+                                                    <asp:ListItem Text="Some or a little of the time (1-2 days)" Value="1">Some of the time</asp:ListItem>
+                                                    <asp:ListItem Text="Occasionally or a moderate amount of the time (3-4 days)" Value="2">Most of the time</asp:ListItem>
+                                                    <asp:ListItem Text="Most or all of the time (5-7 days)" Value="3">Nearly all the time</asp:ListItem>
+                                                </asp:RadioButtonList>
+                                                </td>
+                                            </tr>
+                                        </table>
                                     </p>
                                 </div>
                                 <br />
-                                <asp:ImageButton ID="ImageButton2" runat="server" ImageUrl="~/images/cont.png" Height="100px"  OnClick="ImageButton2_Click" BorderStyle="None" />
+                                <asp:ImageButton ID="ImageButton2" runat="server" ImageUrl="~/images/cont.png" Height="100px" OnClick="ImageButton2_Click" BorderStyle="None" />
                             </div>
- 
 
+                            </li>
                     </ul>
                 </div>
             </div>
