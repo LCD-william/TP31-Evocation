@@ -1,7 +1,8 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Second5.aspx.cs" Inherits="iteration1_Second5" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="First19.aspx.cs" Inherits="iteration1_First19" %>
 
 <!DOCTYPE html>
- <html xmlns="http://www.w3.org/1999/xhtml">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head id="Head1" runat="server">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title></title>
@@ -10,7 +11,7 @@
     <link rel="stylesheet" type="text/css" href="../css/style.css" />
 </head>
 <body>
-    <form id="form1" runat="server" >
+    <form id="form1" runat="server">
         <div id="hd" class="clearfix" style="background: #A3A3A3">
             <a href="index.aspx" class="hd-logo fl">
                 <img src="../images/logo.png">
@@ -57,28 +58,27 @@
                     <ul class="clearfix">
                         <li style="width: 100%">
                             <div class="item-box">
-                             <p style="width:100%;color:black"  align="left">   Zung Self-Rating Depression Scale is a short, self-administered survey to quantify the depressed status of a patient. It has proven to be a valuable tool in the assessment of depressive disorders in a group of hospitalized inpatients. There are 20 items on the scale that rate the four common characteristics of depression: the pervasive effect, the physiological equivalents, other disturbances, and psychomotor activities.
+                             <p style="width:100%"  align="left">  The Centre for Epidemiologic Studies Depression Scale (CES-D Scale) was developed for use in studies of the epidemiology of depressive symptomatology in the general population, and therefore it is a short (20 questions on the scale), structured self-report measure. The scale has high internal consistency, acceptable test-retest stability, excellent concurrent validity by clinical and self-report criteria, and substantial evidence of construct validity.
                         </p>
                                    </div>
                             <div class="item-box">
                                 <div class="inner-wp" style="width: 99%">
-                                    <p style=" color:black">6. I still enjoy sex. </p>
+                                    <p>20. I could not get “going”.</p>
                                     <p style="width: 99%">
                                        <table  style="width: 99%">
                                            <tr>
                                            <td style= "Text-Align:left; ">
                                         &nbsp;<asp:RadioButtonList ID="RadioButtonList1" runat="server" RepeatColumns="1"   RepeatDirection="Horizontal"  >
-                                            <asp:ListItem Text="A little of the time" Value="1">A little of the time</asp:ListItem>
-                                            <asp:ListItem Text="Some of the time" Value="2">Some of the time</asp:ListItem>
-                                            <asp:ListItem Text="Good part of the time" Value="3">Good part of the time</asp:ListItem>
-                                            <asp:ListItem Text="Most of the time" Value="4">Most of the time</asp:ListItem>
+                                            <asp:ListItem Text="Rarely or none of the time (<1 day)" Value="0">Rarely or none of the time (<1 day)</asp:ListItem>
+                                            <asp:ListItem Text="Some or a little of the time (1-2 days)" Value="1">Some or a little of the time (1-2 days)</asp:ListItem>
+                                            <asp:ListItem Text="Occasionally or a moderate amount of the time (3-4 days)" Value="2">Occasionally or a moderate amount of the time (3-4 days)</asp:ListItem>
+                                            <asp:ListItem Text="Most or all of the time (5-7 days)" Value="3">Most or all of the time (5-7 days)</asp:ListItem>
                                         </asp:RadioButtonList>
                                                </td></tr>
                                            </table>
                                     </p>
                                 </div>
-                                <asp:ImageButton ID="ImageButton2" runat="server" ImageUrl="~/images/cont.png" Height="100px"  OnClick="ImageButton2_Click" BorderStyle="None" />
-
+                                <asp:ImageButton ID="ImageButton2" runat="server" ImageUrl="~/images/cont1.png"  OnClick="ImageButton2_Click" />
                             </div>
  
 
