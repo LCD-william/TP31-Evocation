@@ -59,21 +59,20 @@
                     <ul class="clearfix">
                         <li style="width: 100%">
                             <div class="item-box">
-                             <p style="width:100%"  align="left">   Zung Self-Rating Depression Scale is a short, self-administered survey to quantify the depressed status of a patient. It has proven to be a valuable tool in the assessment of depressive disorders in a group of hospitalized inpatients. There are 20 items on the scale that rate the four common characteristics of depression: the pervasive effect, the physiological equivalents, other disturbances, and psychomotor activities.
-                        </p>
+                              <p style="width:100%"  align="left">Over the last 2 weeks, how often have you been bothered by any of the following problems?
                                    </div>
                             <div class="item-box">
                                 <div class="inner-wp" style="width: 99%">
-                                    <p>5. I eat as much as I used to. </p>
+                                    <p>5. Poor appetite or overeating</p>
                                     <p style="width: 99%">
                                        <table  style="width: 99%">
                                            <tr>
                                            <td style= "Text-Align:left; ">
                                         &nbsp;<asp:RadioButtonList ID="RadioButtonList1" runat="server" RepeatColumns="1"   RepeatDirection="Horizontal"  >
-                                            <asp:ListItem Text="A little of the time" Value="1">A little of the time</asp:ListItem>
-                                            <asp:ListItem Text="Some of the time" Value="2">Some of the time</asp:ListItem>
-                                            <asp:ListItem Text="Good part of the time" Value="3">Good part of the time</asp:ListItem>
-                                            <asp:ListItem Text="Most of the time" Value="4">Most of the time</asp:ListItem>
+                                            <asp:ListItem Text="A little of the time" Value="0">NOT AT ALL</asp:ListItem>
+                                            <asp:ListItem Text="Some of the time" Value="1">SEVERAL DAYS</asp:ListItem>
+                                            <asp:ListItem Text="Good part of the time" Value="2">MORE THAN HALF THE DAYS</asp:ListItem>
+                                            <asp:ListItem Text="Most of the time" Value="3">NEARLY EVERY DAY</asp:ListItem>
                                         </asp:RadioButtonList>
                                                </td></tr>
                                            </table>

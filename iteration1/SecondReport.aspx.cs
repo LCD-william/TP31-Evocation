@@ -34,25 +34,7 @@ public partial class iteration1_SecondReport : System.Web.UI.Page
             this.RadioButtonList9.SelectedValue = strs[8].ToString();
             this.RadioButtonList10.SelectedValue = strs[9].ToString();
 
-            this.RadioButtonList11.SelectedValue = strs[10].ToString();
-            this.RadioButtonList12.SelectedValue = strs[11].ToString();
-
-
-            this.RadioButtonList13.SelectedValue = strs[12].ToString();
-            this.RadioButtonList14.SelectedValue = strs[13].ToString();
-
-
-            this.RadioButtonList15.SelectedValue = strs[14].ToString();
-            this.RadioButtonList16.SelectedValue = strs[15].ToString();
-
-            this.RadioButtonList15.SelectedValue = strs[14].ToString();
-            this.RadioButtonList16.SelectedValue = strs[15].ToString();
-
-            this.RadioButtonList17.SelectedValue = strs[16].ToString();
-            this.RadioButtonList18.SelectedValue = strs[17].ToString();
-
-            this.RadioButtonList19.SelectedValue = strs[18].ToString();
-            this.RadioButtonList20.SelectedValue = strs[19].ToString();
+            
         }
     }
 }

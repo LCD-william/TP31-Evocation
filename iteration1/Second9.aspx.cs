@@ -34,6 +34,6 @@ public partial class iteration1_Second9 : System.Web.UI.Page
         strScore = this.RadioButtonList1.SelectedValue + "|";
         Session["score"] = (Convert.ToInt32(Session["score"].ToString()) + score).ToString();
         Session["strScore"] = strScore.ToString();
-        Response.Redirect("Second10.aspx");
+        Response.Redirect("SecondView.aspx");
     }
 }
