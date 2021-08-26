@@ -1,8 +1,9 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="First11.aspx.cs" Inherits="iteration1_First11" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Second4.aspx.cs" Inherits="iteration1_Second4" %>
 
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+ 
+ <html xmlns="http://www.w3.org/1999/xhtml">
 <head id="Head1" runat="server">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title></title>
@@ -11,7 +12,7 @@
     <link rel="stylesheet" type="text/css" href="../css/style.css" />
 </head>
 <body>
-    <form id="form1" runat="server">
+    <form id="form1" runat="server" >
         <div id="hd" class="clearfix" style="background: #A3A3A3">
             <a href="index.aspx" class="hd-logo fl">
                 <img src="../images/logo.png">
@@ -58,22 +59,28 @@
                     <ul class="clearfix">
                         <li style="width: 100%">
                             <div class="item-box">
-                            <p style="color:black">12. Feeling angry, irritable, or frustrated, even over small matters </p>
-                                    <p style="width: 99%;color:black">
+                             <p style="width:100%"  align="left">   Zung Self-Rating Depression Scale is a short, self-administered survey to quantify the depressed status of a patient. It has proven to be a valuable tool in the assessment of depressive disorders in a group of hospitalized inpatients. There are 20 items on the scale that rate the four common characteristics of depression: the pervasive effect, the physiological equivalents, other disturbances, and psychomotor activities.
+                        </p>
+                                   </div>
+                            <div class="item-box">
+                                <div class="inner-wp" style="width: 99%">
+                                    <p>5. I eat as much as I used to. </p>
+                                    <p style="width: 99%">
                                        <table  style="width: 99%">
                                            <tr>
                                            <td style= "Text-Align:left; ">
-                                        &nbsp;<asp:RadioButtonList ID="RadioButtonList1" runat="server" RepeatColumns="1"   RepeatDirection="Horizontal" CellPadding="10" CellSpacing="10"  >
-                                            <asp:ListItem Text="Rarely or none of the time (<1 day)" Value="0">Never</asp:ListItem>
-                                            <asp:ListItem Text="Some or a little of the time (1-2 days)" Value="1">Some of the time</asp:ListItem>
-                                            <asp:ListItem Text="Occasionally or a moderate amount of the time (3-4 days)" Value="2">Most of the time</asp:ListItem>
-                                            <asp:ListItem Text="Most or all of the time (5-7 days)" Value="3">Nearly all the time</asp:ListItem>
+                                        &nbsp;<asp:RadioButtonList ID="RadioButtonList1" runat="server" RepeatColumns="1"   RepeatDirection="Horizontal"  >
+                                            <asp:ListItem Text="A little of the time" Value="1">A little of the time</asp:ListItem>
+                                            <asp:ListItem Text="Some of the time" Value="2">Some of the time</asp:ListItem>
+                                            <asp:ListItem Text="Good part of the time" Value="3">Good part of the time</asp:ListItem>
+                                            <asp:ListItem Text="Most of the time" Value="4">Most of the time</asp:ListItem>
                                         </asp:RadioButtonList>
                                                </td></tr>
                                            </table>
                                     </p>
                                 </div>
-                                <asp:ImageButton ID="ImageButton2" runat="server" ImageUrl="~/images/cont.png" Height="100px" OnClick="ImageButton2_Click" />
+                                <asp:ImageButton ID="ImageButton2" runat="server" ImageUrl="~/images/cont.png" Height="100px"  OnClick="ImageButton2_Click" BorderStyle="None" />
+
                             </div>
  
 

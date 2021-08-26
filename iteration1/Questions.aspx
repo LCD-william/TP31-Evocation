@@ -22,11 +22,11 @@
                         <h3><a href="index.aspx">Home</a></h3>
                     </li>
                     <li class="on">
-                        <h3><a href="Questions.aspx">Questionnaire</a></h3>
+                        <h3><a href="Questions.aspx">Assessment</a></h3>
                         <div class="subnav">
                             <div class="sub-inner clearfix">
-                                <a href="First.aspx">First Questionnaire</a>
-                                <a href="Second.aspx">Second Questionnaire</a>
+                                <a href="First.aspx">Have Depression?</a>
+                                <a href="Second.aspx">Depression Level Test</a>
                             </div>
                         </div>
                     </li>

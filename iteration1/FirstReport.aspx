@@ -21,11 +21,11 @@
                         <h3><a href="index.aspx">Home</a></h3>
                     </li>
                     <li class="on">
-                        <h3><a href="Questions.aspx">Questions</a></h3>
+                        <h3><a href="Questions.aspx">Assessment</a></h3>
                         <div class="subnav">
                             <div class="sub-inner clearfix">
-                                <a href="First.aspx">First Question</a>
-                                <a href="Second.aspx">Second Question</a>
+                                <a href="First.aspx">Have Depression?</a>
+                                <a href="Second.aspx">Depression Level Test</a>
                             </div>
                         </div>
                     </li>
@@ -70,21 +70,22 @@
                         </li>
                         <li style="width: 100%">
                             <div class="item-box">
-                             <p style="width:80%">  The Centre for Epidemiologic Studies Depression Scale (CES-D Scale) was developed for use in studies of the epidemiology of depressive symptomatology in the general population, and therefore it is a short (20 questions on the scale), structured self-report measure. The scale has high internal consistency, acceptable test-retest stability, excellent concurrent validity by clinical and self-report criteria, and substantial evidence of construct validity.
+                             <p style="width:80%">In recent years, there has been an increase in depression and a rapid rise in suicides among international students in Victoria. Before going abroad, they do not understand the huge differences between the education concept, classroom teaching style, high elimination rate and their own country's education and culture, as well as the language barrier, which often undermines the confidence of international students and creates great stress and loss of mental and psychological security, leading to depression. This assessment can test whether international students are depressed in terms of life and study.
+Please open the test. Relax, it's easy and free. It gives immediate results.
                         </p>
                                    </div>
                             <div class="item-box">
                                 <div class="inner-wp" style="width: 99%">
-                                    <p>1. I was bothered by things that don’t usually bother me. </p>
+                                    <p>1. Difficulty focusing on everyday tasks. </p>
                                     <p style="width: 99%">
                                        <table  style="width: 99%">
                                            <tr>
                                            <td style= "Text-Align:left; ">
                                         &nbsp;<asp:RadioButtonList ID="RadioButtonList1" runat="server" RepeatColumns="1"   RepeatDirection="Horizontal"  >
-                                            <asp:ListItem Text="Rarely or none of the time (<1 day)" Value="0">Rarely or none of the time (<1 day)</asp:ListItem>
-                                            <asp:ListItem Text="Some or a little of the time (1-2 days)" Value="1">Some or a little of the time (1-2 days)</asp:ListItem>
-                                            <asp:ListItem Text="Occasionally or a moderate amount of the time (3-4 days)" Value="2">Occasionally or a moderate amount of the time (3-4 days)</asp:ListItem>
-                                            <asp:ListItem Text="Most or all of the time (5-7 days)" Value="3">Most or all of the time (5-7 days)</asp:ListItem>
+                                           <asp:ListItem Text="Rarely or none of the time (<1 day)" Value="0">Never</asp:ListItem>
+                                            <asp:ListItem Text="Some or a little of the time (1-2 days)" Value="1">Some of the time</asp:ListItem>
+                                            <asp:ListItem Text="Occasionally or a moderate amount of the time (3-4 days)" Value="2">Most of the time</asp:ListItem>
+                                            <asp:ListItem Text="Most or all of the time (5-7 days)" Value="3">Nearly all the time</asp:ListItem>
                                         </asp:RadioButtonList>
                                                </td></tr>
                                            </table>
@@ -95,16 +96,16 @@
 
                             <div class="item-box">
                                 <div class="inner-wp" style="width: 99%">
-                                    <p>2. I did not feel like eating; my appetite was poor. </p>
+                                    <p>2. Finding no joy in life, or feeling like you never will again. </p>
                                    <p style="width: 99%">
                                        <table  style="width: 99%">
                                            <tr>
                                            <td style= "Text-Align:left; ">
                                         <asp:RadioButtonList ID="RadioButtonList2" runat="server" RepeatColumns="1">
-                                            <asp:ListItem Text="Rarely or none of the time (<1 day)" Value="0">Rarely or none of the time (<1 day)</asp:ListItem>
-                                            <asp:ListItem Text="Some or a little of the time (1-2 days)" Value="1">Some or a little of the time (1-2 days)</asp:ListItem>
-                                            <asp:ListItem Text="Occasionally or a moderate amount of the time (3-4 days)" Value="2">Occasionally or a moderate amount of the time (3-4 days)</asp:ListItem>
-                                            <asp:ListItem Text="Most or all of the time (5-7 days)" Value="3">Most or all of the time (5-7 days)</asp:ListItem>
+                                           <asp:ListItem Text="Rarely or none of the time (<1 day)" Value="0">Never</asp:ListItem>
+                                            <asp:ListItem Text="Some or a little of the time (1-2 days)" Value="1">Some of the time</asp:ListItem>
+                                            <asp:ListItem Text="Occasionally or a moderate amount of the time (3-4 days)" Value="2">Most of the time</asp:ListItem>
+                                            <asp:ListItem Text="Most or all of the time (5-7 days)" Value="3">Nearly all the time</asp:ListItem>
                                         </asp:RadioButtonList>
                                                  </td></tr>
                                            </table>
@@ -115,16 +116,16 @@
 
                             <div class="item-box">
                                 <div class="inner-wp" style="width: 99%">
-                                    <p>3. I felt that I could not shake off the blues even with the help of my family or friends.</p>
+                                    <p>3. Being lethargic or having no energy.</p>
                                     <p>
                                            <table  style="width: 99%">
                                            <tr>
                                            <td style= "Text-Align:left; ">
                                         <asp:RadioButtonList ID="RadioButtonList3" runat="server" RepeatColumns="1">
-                                            <asp:ListItem Text="Rarely or none of the time (<1 day)" Value="0">Rarely or none of the time (<1 day)</asp:ListItem>
-                                            <asp:ListItem Text="Some or a little of the time (1-2 days)" Value="1">Some or a little of the time (1-2 days)</asp:ListItem>
-                                            <asp:ListItem Text="Occasionally or a moderate amount of the time (3-4 days)" Value="2">Occasionally or a moderate amount of the time (3-4 days)</asp:ListItem>
-                                            <asp:ListItem Text="Most or all of the time (5-7 days)" Value="3">Most or all of the time (5-7 days)</asp:ListItem>
+                                            <asp:ListItem Text="Rarely or none of the time (<1 day)" Value="0">Never</asp:ListItem>
+                                            <asp:ListItem Text="Some or a little of the time (1-2 days)" Value="1">Some of the time</asp:ListItem>
+                                            <asp:ListItem Text="Occasionally or a moderate amount of the time (3-4 days)" Value="2">Most of the time</asp:ListItem>
+                                            <asp:ListItem Text="Most or all of the time (5-7 days)" Value="3">Nearly all the time</asp:ListItem>
                                         </asp:RadioButtonList>
                                                   </td></tr>
                                            </table>
@@ -137,16 +138,16 @@
 
                             <div class="item-box">
                                 <div class="inner-wp" style="width: 99%">
-                                    <p>4. I felt that I was just as good as other people. </p>
+                                    <p>4. Eating too much, or too little. </p>
                                     <p>
                                          <table  style="width: 99%">
                                            <tr>
                                            <td style= "Text-Align:left; ">
                                         <asp:RadioButtonList ID="RadioButtonList4" runat="server" RepeatColumns="1">
-                                             <asp:ListItem Text="Rarely or none of the time (<1 day)" Value="3">Rarely or none of the time (<1 day)</asp:ListItem>
-                                            <asp:ListItem Text="Some or a little of the time (1-2 days)" Value="2">Some or a little of the time (1-2 days)</asp:ListItem>
-                                            <asp:ListItem Text="Occasionally or a moderate amount of the time (3-4 days)" Value="1">Occasionally or a moderate amount of the time (3-4 days)</asp:ListItem>
-                                            <asp:ListItem Text="Most or all of the time (5-7 days)" Value="0">Most or all of the time (5-7 days)</asp:ListItem>
+                                           <asp:ListItem Text="Rarely or none of the time (<1 day)" Value="0">Never</asp:ListItem>
+                                            <asp:ListItem Text="Some or a little of the time (1-2 days)" Value="1">Some of the time</asp:ListItem>
+                                            <asp:ListItem Text="Occasionally or a moderate amount of the time (3-4 days)" Value="2">Most of the time</asp:ListItem>
+                                            <asp:ListItem Text="Most or all of the time (5-7 days)" Value="3">Nearly all the time</asp:ListItem>
                                         </asp:RadioButtonList>
                                                   </td></tr>
                                            </table>
@@ -159,16 +160,16 @@
 
                             <div class="item-box">
                                 <div class="inner-wp" style="width: 99%">
-                                    <p>5. I had trouble keeping my mind on what I was doing. </p>
+                                    <p>5. Being full of nervous energy, or moving much less than usual. </p>
                                     <p>
                                          <table  style="width: 99%">
                                            <tr>
                                            <td style= "Text-Align:left; ">
                                         <asp:RadioButtonList ID="RadioButtonList5" runat="server" RepeatColumns="1">
-                                           <asp:ListItem Text="Rarely or none of the time (<1 day)" Value="0">Rarely or none of the time (<1 day)</asp:ListItem>
-                                            <asp:ListItem Text="Some or a little of the time (1-2 days)" Value="1">Some or a little of the time (1-2 days)</asp:ListItem>
-                                            <asp:ListItem Text="Occasionally or a moderate amount of the time (3-4 days)" Value="2">Occasionally or a moderate amount of the time (3-4 days)</asp:ListItem>
-                                            <asp:ListItem Text="Most or all of the time (5-7 days)" Value="3">Most or all of the time (5-7 days)</asp:ListItem>
+                                          <asp:ListItem Text="Rarely or none of the time (<1 day)" Value="0">Never</asp:ListItem>
+                                            <asp:ListItem Text="Some or a little of the time (1-2 days)" Value="1">Some of the time</asp:ListItem>
+                                            <asp:ListItem Text="Occasionally or a moderate amount of the time (3-4 days)" Value="2">Most of the time</asp:ListItem>
+                                            <asp:ListItem Text="Most or all of the time (5-7 days)" Value="3">Nearly all the time</asp:ListItem>
                                         </asp:RadioButtonList>
                                                   </td></tr>
                                            </table>
@@ -182,16 +183,16 @@
 
                             <div class="item-box">
                                 <div class="inner-wp" style="width: 99%">
-                                    <p>6. I felt depressed.</p>
+                                    <p>6. Oversleeping, or struggling to get to sleep.</p>
                                     <p>
                                          <table  style="width: 99%">
                                            <tr>
                                            <td style= "Text-Align:left; ">
                                         <asp:RadioButtonList ID="RadioButtonList6" runat="server" RepeatColumns="1">
-                                            <asp:ListItem Text="Rarely or none of the time (<1 day)" Value="0">Rarely or none of the time (<1 day)</asp:ListItem>
-                                            <asp:ListItem Text="Some or a little of the time (1-2 days)" Value="1">Some or a little of the time (1-2 days)</asp:ListItem>
-                                            <asp:ListItem Text="Occasionally or a moderate amount of the time (3-4 days)" Value="2">Occasionally or a moderate amount of the time (3-4 days)</asp:ListItem>
-                                            <asp:ListItem Text="Most or all of the time (5-7 days)" Value="3">Most or all of the time (5-7 days)</asp:ListItem>
+                                           <asp:ListItem Text="Rarely or none of the time (<1 day)" Value="0">Never</asp:ListItem>
+                                            <asp:ListItem Text="Some or a little of the time (1-2 days)" Value="1">Some of the time</asp:ListItem>
+                                            <asp:ListItem Text="Occasionally or a moderate amount of the time (3-4 days)" Value="2">Most of the time</asp:ListItem>
+                                            <asp:ListItem Text="Most or all of the time (5-7 days)" Value="3">Nearly all the time</asp:ListItem>
                                         </asp:RadioButtonList>
                                                   </td></tr>
                                            </table>
@@ -204,16 +205,16 @@
 
                             <div class="item-box">
                                 <div class="inner-wp" style="width: 99%">
-                                    <p>7. I felt everything I did was an effort.</p>
+                                    <p>7. Being harsh on yourself or overly self-critical.</p>
                                     <p>
                                          <table  style="width: 99%">
                                            <tr>
                                            <td style= "Text-Align:left; ">
                                         <asp:RadioButtonList ID="RadioButtonList7" runat="server" RepeatColumns="1">
-                                             <asp:ListItem Text="Rarely or none of the time (<1 day)" Value="0">Rarely or none of the time (<1 day)</asp:ListItem>
-                                            <asp:ListItem Text="Some or a little of the time (1-2 days)" Value="1">Some or a little of the time (1-2 days)</asp:ListItem>
-                                            <asp:ListItem Text="Occasionally or a moderate amount of the time (3-4 days)" Value="2">Occasionally or a moderate amount of the time (3-4 days)</asp:ListItem>
-                                            <asp:ListItem Text="Most or all of the time (5-7 days)" Value="3">Most or all of the time (5-7 days)</asp:ListItem>
+                                            <asp:ListItem Text="Rarely or none of the time (<1 day)" Value="0">Never</asp:ListItem>
+                                            <asp:ListItem Text="Some or a little of the time (1-2 days)" Value="1">Some of the time</asp:ListItem>
+                                            <asp:ListItem Text="Occasionally or a moderate amount of the time (3-4 days)" Value="2">Most of the time</asp:ListItem>
+                                            <asp:ListItem Text="Most or all of the time (5-7 days)" Value="3">Nearly all the time</asp:ListItem>
                                         </asp:RadioButtonList>
                                                   </td></tr>
                                            </table>
@@ -226,16 +227,16 @@
 
                             <div class="item-box">
                                 <div class="inner-wp" style="width: 99%">
-                                    <p>8. I felt hopeful about the future.</p>
+                                    <p>8. Feeling low or "under a cloud".</p>
                                     <p>
                                          <table  style="width: 99%">
                                            <tr>
                                            <td style= "Text-Align:left; ">
                                         <asp:RadioButtonList ID="RadioButtonList8" runat="server" RepeatColumns="1">
-                                              <asp:ListItem Text="Rarely or none of the time (<1 day)" Value="3">Rarely or none of the time (<1 day)</asp:ListItem>
-                                            <asp:ListItem Text="Some or a little of the time (1-2 days)" Value="2">Some or a little of the time (1-2 days)</asp:ListItem>
-                                            <asp:ListItem Text="Occasionally or a moderate amount of the time (3-4 days)" Value="1">Occasionally or a moderate amount of the time (3-4 days)</asp:ListItem>
-                                            <asp:ListItem Text="Most or all of the time (5-7 days)" Value="0">Most or all of the time (5-7 days)</asp:ListItem>
+                                            <asp:ListItem Text="Rarely or none of the time (<1 day)" Value="0">Never</asp:ListItem>
+                                            <asp:ListItem Text="Some or a little of the time (1-2 days)" Value="1">Some of the time</asp:ListItem>
+                                            <asp:ListItem Text="Occasionally or a moderate amount of the time (3-4 days)" Value="2">Most of the time</asp:ListItem>
+                                            <asp:ListItem Text="Most or all of the time (5-7 days)" Value="3">Nearly all the time</asp:ListItem>
                                         </asp:RadioButtonList>
                                                   </td></tr>
                                            </table>
@@ -248,16 +249,16 @@
 
                             <div class="item-box">
                                 <div class="inner-wp" style="width: 99%">
-                                    <p>9. I thought my life had been a failure.</p>
+                                    <p>9. Considering harming yourself, or committing suicide.</p>
                                     <p>
                                          <table  style="width: 99%">
                                            <tr>
                                            <td style= "Text-Align:left; ">
                                         <asp:RadioButtonList ID="RadioButtonList9" runat="server" RepeatColumns="1">
-                                             <asp:ListItem Text="Rarely or none of the time (<1 day)" Value="0">Rarely or none of the time (<1 day)</asp:ListItem>
-                                            <asp:ListItem Text="Some or a little of the time (1-2 days)" Value="1">Some or a little of the time (1-2 days)</asp:ListItem>
-                                            <asp:ListItem Text="Occasionally or a moderate amount of the time (3-4 days)" Value="2">Occasionally or a moderate amount of the time (3-4 days)</asp:ListItem>
-                                            <asp:ListItem Text="Most or all of the time (5-7 days)" Value="3">Most or all of the time (5-7 days)</asp:ListItem>
+                                            <asp:ListItem Text="Rarely or none of the time (<1 day)" Value="0">Never</asp:ListItem>
+                                            <asp:ListItem Text="Some or a little of the time (1-2 days)" Value="1">Some of the time</asp:ListItem>
+                                            <asp:ListItem Text="Occasionally or a moderate amount of the time (3-4 days)" Value="2">Most of the time</asp:ListItem>
+                                            <asp:ListItem Text="Most or all of the time (5-7 days)" Value="3">Nearly all the time</asp:ListItem>
                                         </asp:RadioButtonList>
                                                   </td></tr>
                                            </table>
@@ -270,16 +271,16 @@
 
                             <div class="item-box">
                                 <div class="inner-wp" style="width: 99%">
-                                    <p>10. I felt fearful.</p>
+                                    <p>10. Headaches, cramps, aches, or pains that won't go away.</p>
                                     <p>
                                          <table  style="width: 99%">
                                            <tr>
                                            <td style= "Text-Align:left; ">
                                         <asp:RadioButtonList ID="RadioButtonList10" runat="server" RepeatColumns="1">
-                                             <asp:ListItem Text="Rarely or none of the time (<1 day)" Value="0">Rarely or none of the time (<1 day)</asp:ListItem>
-                                            <asp:ListItem Text="Some or a little of the time (1-2 days)" Value="1">Some or a little of the time (1-2 days)</asp:ListItem>
-                                            <asp:ListItem Text="Occasionally or a moderate amount of the time (3-4 days)" Value="2">Occasionally or a moderate amount of the time (3-4 days)</asp:ListItem>
-                                            <asp:ListItem Text="Most or all of the time (5-7 days)" Value="3">Most or all of the time (5-7 days)</asp:ListItem>
+                                           <asp:ListItem Text="Rarely or none of the time (<1 day)" Value="0">Never</asp:ListItem>
+                                            <asp:ListItem Text="Some or a little of the time (1-2 days)" Value="1">Some of the time</asp:ListItem>
+                                            <asp:ListItem Text="Occasionally or a moderate amount of the time (3-4 days)" Value="2">Most of the time</asp:ListItem>
+                                            <asp:ListItem Text="Most or all of the time (5-7 days)" Value="3">Nearly all the time</asp:ListItem>
                                         </asp:RadioButtonList>
                                                   </td></tr>
                                            </table>
@@ -292,16 +293,16 @@
 
                             <div class="item-box">
                                 <div class="inner-wp" style="width: 99%">
-                                    <p>11. My sleep was restless.</p>
+                                    <p>11. Loss of interest or pleasure in things you previously found enjoyable.</p>
                                     <p>
                                          <table  style="width: 99%">
                                            <tr>
                                            <td style= "Text-Align:left; ">
                                         <asp:RadioButtonList ID="RadioButtonList11" runat="server" RepeatColumns="1">
-                                             <asp:ListItem Text="Rarely or none of the time (<1 day)" Value="0">Rarely or none of the time (<1 day)</asp:ListItem>
-                                            <asp:ListItem Text="Some or a little of the time (1-2 days)" Value="1">Some or a little of the time (1-2 days)</asp:ListItem>
-                                            <asp:ListItem Text="Occasionally or a moderate amount of the time (3-4 days)" Value="2">Occasionally or a moderate amount of the time (3-4 days)</asp:ListItem>
-                                            <asp:ListItem Text="Most or all of the time (5-7 days)" Value="3">Most or all of the time (5-7 days)</asp:ListItem>
+                                            <asp:ListItem Text="Rarely or none of the time (<1 day)" Value="0">Never</asp:ListItem>
+                                            <asp:ListItem Text="Some or a little of the time (1-2 days)" Value="1">Some of the time</asp:ListItem>
+                                            <asp:ListItem Text="Occasionally or a moderate amount of the time (3-4 days)" Value="2">Most of the time</asp:ListItem>
+                                            <asp:ListItem Text="Most or all of the time (5-7 days)" Value="3">Nearly all the time</asp:ListItem>
                                         </asp:RadioButtonList>
                                                   </td></tr>
                                            </table>
@@ -313,16 +314,16 @@
 
                             <div class="item-box">
                                 <div class="inner-wp" style="width: 99%">
-                                    <p>12. I was happy.</p>
+                                    <p>12.Feeling angry, irritable, or frustrated, even over small matters.</p>
                                     <p>
                                          <table  style="width: 99%">
                                            <tr>
                                            <td style= "Text-Align:left; ">
                                         <asp:RadioButtonList ID="RadioButtonList12" runat="server" RepeatColumns="1">
-                                            <asp:ListItem Text="Rarely or none of the time (<1 day)" Value="3">Rarely or none of the time (<1 day)</asp:ListItem>
-                                            <asp:ListItem Text="Some or a little of the time (1-2 days)" Value="2">Some or a little of the time (1-2 days)</asp:ListItem>
-                                            <asp:ListItem Text="Occasionally or a moderate amount of the time (3-4 days)" Value="1">Occasionally or a moderate amount of the time (3-4 days)</asp:ListItem>
-                                            <asp:ListItem Text="Most or all of the time (5-7 days)" Value="0">Most or all of the time (5-7 days)</asp:ListItem>
+                                           <asp:ListItem Text="Rarely or none of the time (<1 day)" Value="0">Never</asp:ListItem>
+                                            <asp:ListItem Text="Some or a little of the time (1-2 days)" Value="1">Some of the time</asp:ListItem>
+                                            <asp:ListItem Text="Occasionally or a moderate amount of the time (3-4 days)" Value="2">Most of the time</asp:ListItem>
+                                            <asp:ListItem Text="Most or all of the time (5-7 days)" Value="3">Nearly all the time</asp:ListItem>
                                         </asp:RadioButtonList>
                                                   </td></tr>
                                            </table>
@@ -335,17 +336,17 @@
 
                             <div class="item-box">
                                 <div class="inner-wp" style="width: 99%">
-                                    <p>13. I talked less than usual.</p>
+                                    <p>13.Slowed thinking, speaking, or body movements.</p>
                                     <p>
                                          <table  style="width: 99%">
                                            <tr>
                                            <td style= "Text-Align:left; ">
                                         <asp:RadioButtonList ID="RadioButtonList13" runat="server" RepeatColumns="1">
                                            
-                                            <asp:ListItem Text="Rarely or none of the time (<1 day)" Value="0">Rarely or none of the time (<1 day)</asp:ListItem>
-                                            <asp:ListItem Text="Some or a little of the time (1-2 days)" Value="1">Some or a little of the time (1-2 days)</asp:ListItem>
-                                            <asp:ListItem Text="Occasionally or a moderate amount of the time (3-4 days)" Value="2">Occasionally or a moderate amount of the time (3-4 days)</asp:ListItem>
-                                            <asp:ListItem Text="Most or all of the time (5-7 days)" Value="3">Most or all of the time (5-7 days)</asp:ListItem>
+                                          <asp:ListItem Text="Rarely or none of the time (<1 day)" Value="0">Never</asp:ListItem>
+                                            <asp:ListItem Text="Some or a little of the time (1-2 days)" Value="1">Some of the time</asp:ListItem>
+                                            <asp:ListItem Text="Occasionally or a moderate amount of the time (3-4 days)" Value="2">Most of the time</asp:ListItem>
+                                            <asp:ListItem Text="Most or all of the time (5-7 days)" Value="3">Nearly all the time</asp:ListItem>
                                         </asp:RadioButtonList>
                                                   </td></tr>
                                            </table>
@@ -356,152 +357,6 @@
 
 
 
-                            <div class="item-box">
-                                <div class="inner-wp" style="width: 99%">
-                                    <p>14. I felt lonely.</p>
-                                    <p>
-                                         <table  style="width: 99%">
-                                           <tr>
-                                           <td style= "Text-Align:left; ">
-                                        <asp:RadioButtonList ID="RadioButtonList14" runat="server" RepeatColumns="1">
-                                           <asp:ListItem Text="Rarely or none of the time (<1 day)" Value="0">Rarely or none of the time (<1 day)</asp:ListItem>
-                                            <asp:ListItem Text="Some or a little of the time (1-2 days)" Value="1">Some or a little of the time (1-2 days)</asp:ListItem>
-                                            <asp:ListItem Text="Occasionally or a moderate amount of the time (3-4 days)" Value="2">Occasionally or a moderate amount of the time (3-4 days)</asp:ListItem>
-                                            <asp:ListItem Text="Most or all of the time (5-7 days)" Value="3">Most or all of the time (5-7 days)</asp:ListItem>
-                                        </asp:RadioButtonList>
-                                                  </td></tr>
-                                           </table>
-                                    </p>
-                                </div>
-
-                            </div>
-
-
-                            <div class="item-box">
-                                <div class="inner-wp" style="width: 99%">
-                                    <p>15. People were unfriendly.</p>
-                                    <p>
-                                         <table  style="width: 99%">
-                                           <tr>
-                                           <td style= "Text-Align:left; ">
-                                        <asp:RadioButtonList ID="RadioButtonList15" runat="server" RepeatColumns="1">
-                                             <asp:ListItem Text="Rarely or none of the time (<1 day)" Value="0">Rarely or none of the time (<1 day)</asp:ListItem>
-                                            <asp:ListItem Text="Some or a little of the time (1-2 days)" Value="1">Some or a little of the time (1-2 days)</asp:ListItem>
-                                            <asp:ListItem Text="Occasionally or a moderate amount of the time (3-4 days)" Value="2">Occasionally or a moderate amount of the time (3-4 days)</asp:ListItem>
-                                            <asp:ListItem Text="Most or all of the time (5-7 days)" Value="3">Most or all of the time (5-7 days)</asp:ListItem>
-                                        </asp:RadioButtonList>
-                                                  </td></tr>
-                                           </table>
-                                    </p>
-                                </div>
-
-                            </div>
-
-
-
-                            <div class="item-box">
-                                <div class="inner-wp" style="width: 99%">
-                                    <p>16. I enjoyed life. </p>
-                                    <p>
-                                         <table  style="width: 99%">
-                                           <tr>
-                                           <td style= "Text-Align:left; ">
-                                        <asp:RadioButtonList ID="RadioButtonList16" runat="server" RepeatColumns="1">
-                                              <asp:ListItem Text="Rarely or none of the time (<1 day)" Value="3">Rarely or none of the time (<1 day)</asp:ListItem>
-                                            <asp:ListItem Text="Some or a little of the time (1-2 days)" Value="2">Some or a little of the time (1-2 days)</asp:ListItem>
-                                            <asp:ListItem Text="Occasionally or a moderate amount of the time (3-4 days)" Value="1">Occasionally or a moderate amount of the time (3-4 days)</asp:ListItem>
-                                            <asp:ListItem Text="Most or all of the time (5-7 days)" Value="0">Most or all of the time (5-7 days)</asp:ListItem>
-                                        </asp:RadioButtonList>
-                                                  </td></tr>
-                                           </table>
-                                    </p>
-                                </div>
-
-                            </div>
-
-
-                            <div class="item-box">
-                                <div class="inner-wp" style="width: 99%">
-                                    <p>17. I had crying spells.</p>
-                                    <p>
-                                         <table  style="width: 99%">
-                                           <tr>
-                                           <td style= "Text-Align:left; ">
-                                        <asp:RadioButtonList ID="RadioButtonList17" runat="server" RepeatColumns="1">
-                                             <asp:ListItem Text="Rarely or none of the time (<1 day)" Value="0">Rarely or none of the time (<1 day)</asp:ListItem>
-                                            <asp:ListItem Text="Some or a little of the time (1-2 days)" Value="1">Some or a little of the time (1-2 days)</asp:ListItem>
-                                            <asp:ListItem Text="Occasionally or a moderate amount of the time (3-4 days)" Value="2">Occasionally or a moderate amount of the time (3-4 days)</asp:ListItem>
-                                            <asp:ListItem Text="Most or all of the time (5-7 days)" Value="3">Most or all of the time (5-7 days)</asp:ListItem>
-                                        </asp:RadioButtonList>
-                                                  </td></tr>
-                                           </table>
-                                    </p>
-                                </div>
-
-                            </div>
-
-
-                            <div class="item-box">
-                                <div class="inner-wp" style="width: 99%">
-                                    <p>18. I felt sad.</p>
-                                    <p>
-                                         <table  style="width: 99%">
-                                           <tr>
-                                           <td style= "Text-Align:left; ">
-                                        <asp:RadioButtonList ID="RadioButtonList18" runat="server" RepeatColumns="1">
-                                            <asp:ListItem Text="Rarely or none of the time (<1 day)" Value="0">Rarely or none of the time (<1 day)</asp:ListItem>
-                                            <asp:ListItem Text="Some or a little of the time (1-2 days)" Value="1">Some or a little of the time (1-2 days)</asp:ListItem>
-                                            <asp:ListItem Text="Occasionally or a moderate amount of the time (3-4 days)" Value="2">Occasionally or a moderate amount of the time (3-4 days)</asp:ListItem>
-                                            <asp:ListItem Text="Most or all of the time (5-7 days)" Value="3">Most or all of the time (5-7 days)</asp:ListItem>
-                                        </asp:RadioButtonList>
-                                                  </td></tr>
-                                           </table>
-                                    </p>
-                                </div>
-
-                            </div>
-
-
-                            <div class="item-box">
-                                <div class="inner-wp" style="width: 99%">
-                                    <p>19. I felt that people disliked me. </p>
-                                    <p>
-                                         <table  style="width: 99%">
-                                           <tr>
-                                           <td style= "Text-Align:left; ">
-                                        <asp:RadioButtonList ID="RadioButtonList19" runat="server" RepeatColumns="1">
-                                            <asp:ListItem Text="Rarely or none of the time (<1 day)" Value="0">Rarely or none of the time (<1 day)</asp:ListItem>
-                                            <asp:ListItem Text="Some or a little of the time (1-2 days)" Value="1">Some or a little of the time (1-2 days)</asp:ListItem>
-                                            <asp:ListItem Text="Occasionally or a moderate amount of the time (3-4 days)" Value="2">Occasionally or a moderate amount of the time (3-4 days)</asp:ListItem>
-                                            <asp:ListItem Text="Most or all of the time (5-7 days)" Value="3">Most or all of the time (5-7 days)</asp:ListItem>
-                                        </asp:RadioButtonList>
-                                                  </td></tr>
-                                           </table>
-                                    </p>
-                                </div>
-
-                            </div>
-
-
-                            <div class="item-box">
-                                <div class="inner-wp" style="width: 99%">
-                                    <p>20. I could not get “going”.</p>
-                                    <p>
-                                         <table  style="width: 99%">
-                                           <tr>
-                                           <td style= "Text-Align:left; ">
-                                        <asp:RadioButtonList ID="RadioButtonList20" runat="server" RepeatColumns="1">
-                                             <asp:ListItem Text="Rarely or none of the time (<1 day)" Value="0">Rarely or none of the time (<1 day)</asp:ListItem>
-                                            <asp:ListItem Text="Some or a little of the time (1-2 days)" Value="1">Some or a little of the time (1-2 days)</asp:ListItem>
-                                            <asp:ListItem Text="Occasionally or a moderate amount of the time (3-4 days)" Value="2">Occasionally or a moderate amount of the time (3-4 days)</asp:ListItem>
-                                            <asp:ListItem Text="Most or all of the time (5-7 days)" Value="3">Most or all of the time (5-7 days)</asp:ListItem>
-                                        </asp:RadioButtonList>
-                                                  </td></tr>
-                                           </table>
-                                    </p>
-                                </div>
-
-                            </div>
                         </li>
                         <li style="width: 99%">
                             <div class="item-box">

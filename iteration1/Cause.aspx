@@ -11,21 +11,21 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <div id="hd" class="clearfix">
+        <div id="hd" class="clearfix" style="background: #A3A3A3">
             <a href="index.aspx" class="hd-logo fl">
                 <img src="../images/logo.png">
             </a>
             <div class="hd-nav fl">
-                <ul class="clearfix">
+                <ul class="clearfix" style="background: #A3A3A3">
                     <li class="on">
                         <h3><a href="index.aspx">Home</a></h3>
                     </li>
                     <li>
-                        <h3><a href="Questions.aspx">Questions</a></h3>
+                        <h3><a href="Questions.aspx">Assessment</a></h3>
                         <div class="subnav">
                             <div class="sub-inner clearfix">
-                                <a href="First.aspx">First Question</a>
-                                <a href="Second.aspx">Second Question</a>
+                                <a href="First.aspx">Have Depression?</a>
+                                <a href="Second.aspx">Depression Level Test</a>
                             </div>
                         </div>
                     </li>
@@ -89,7 +89,7 @@
                 <div class="title">
                     <h3><span>Causes</span></h3>
                 </div>
-                <div class="wp" style="width: 100%">
+                <div class="wp" style="width: 80%">
                     <ul class="clearfix" style="width: 100%">
                         <li style="width: 100%">
                             <div class="item-box" style="width: 99%" align="left">
@@ -111,7 +111,7 @@ International students have been at high risk for mental disorders and severe ps
         </div>
 
 
-        <iframe height="400" width="100%" frameborder="no" src="https://nikitaahans.shinyapps.io/TP31_evocation_2/"></iframe>
+        
         <div id="ft">
             <div class="copyright">
                 <p class="wp">Copyright ©  All Rights Reserved.</p>

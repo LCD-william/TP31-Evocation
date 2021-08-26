@@ -11,12 +11,12 @@
 </head>
 <body>
     <form id="form1" runat="server">
-   <div id="hd" class="clearfix">
+   <div id="hd" class="clearfix" style="background: #A3A3A3">
 		<a href="index.aspx" class="hd-logo fl">
 			<img src="../images/logo.png">
 		</a>
 		<div class="hd-nav fl">
-			<ul class="clearfix">
+			<ul class="clearfix" style="background: #A3A3A3">
 				<li class="on">
 					<h3><a href="index.aspx">Home</a></h3>
 				</li>
@@ -80,7 +80,7 @@
 		</div>         <div class="index-sec1" style="width: 100%; padding-top:1px" >
              <div class="title">
 				<h3><span>Depression</span></h3>			</div>
-         <div class="wp" style="width: 100%" >				<ul class="clearfix" style="width: 100%" >
+         <div class="wp" style="width: 80%" >				<ul class="clearfix" style="width: 100%" >
                     <li style="width: 100%" >
                     <div class="item-box" style="width: 99%" align="left" >
                                 <div class="inner-wp" style="width: 99%" align="left" >
@@ -97,7 +97,6 @@
 	</div>
 
 
-         <iframe height="400" width="100%" frameborder="no" src="https://nikitaahans.shinyapps.io/TP31_evocation_2/"> </iframe>
    <div id="ft">		<div class="copyright">			<p class="wp">Copyright ©  All Rights Reserved.</p>		</div>
 	</div>
     </form>

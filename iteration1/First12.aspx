@@ -22,11 +22,11 @@
                         <h3><a href="index.aspx">Home</a></h3>
                     </li>
                     <li class="on">
-                        <h3><a href="Questions.aspx">Questions</a></h3>
+                         <h3><a href="Questions.aspx">Assessment</a></h3>
                         <div class="subnav">
                             <div class="sub-inner clearfix">
-                                <a href="First.aspx">First Question</a>
-                                <a href="Second.aspx">Second Question</a>
+                                <a href="First.aspx">Have Depression?</a>
+                                <a href="Second.aspx">Depression Level Test</a>
                             </div>
                         </div>
                     </li>
@@ -58,21 +58,16 @@
                     <ul class="clearfix">
                         <li style="width: 100%">
                             <div class="item-box">
-                             <p style="width:100%"  align="left">  The Centre for Epidemiologic Studies Depression Scale (CES-D Scale) was developed for use in studies of the epidemiology of depressive symptomatology in the general population, and therefore it is a short (20 questions on the scale), structured self-report measure. The scale has high internal consistency, acceptable test-retest stability, excellent concurrent validity by clinical and self-report criteria, and substantial evidence of construct validity.
-                        </p>
-                                   </div>
-                            <div class="item-box">
-                                <div class="inner-wp" style="width: 99%">
-                                    <p>13. I talked less than usual.</p>
-                                    <p style="width: 99%">
+                            <p style="color:black">13. Slowed thinking, speaking, or body movements </p>
+                                    <p style="width: 99%;color:black">
                                        <table  style="width: 99%">
                                            <tr>
                                            <td style= "Text-Align:left; ">
-                                        &nbsp;<asp:RadioButtonList ID="RadioButtonList1" runat="server" RepeatColumns="1"   RepeatDirection="Horizontal"  >
-                                            <asp:ListItem Text="Rarely or none of the time (<1 day)" Value="0">Rarely or none of the time (<1 day)</asp:ListItem>
-                                            <asp:ListItem Text="Some or a little of the time (1-2 days)" Value="1">Some or a little of the time (1-2 days)</asp:ListItem>
-                                            <asp:ListItem Text="Occasionally or a moderate amount of the time (3-4 days)" Value="2">Occasionally or a moderate amount of the time (3-4 days)</asp:ListItem>
-                                            <asp:ListItem Text="Most or all of the time (5-7 days)" Value="3">Most or all of the time (5-7 days)</asp:ListItem>
+                                        &nbsp;<asp:RadioButtonList ID="RadioButtonList1" runat="server" RepeatColumns="1"   RepeatDirection="Horizontal" CellPadding="10" CellSpacing="10"  >
+                                            <asp:ListItem Text="Rarely or none of the time (<1 day)" Value="0">Never</asp:ListItem>
+                                            <asp:ListItem Text="Some or a little of the time (1-2 days)" Value="1">Some of the time</asp:ListItem>
+                                            <asp:ListItem Text="Occasionally or a moderate amount of the time (3-4 days)" Value="2">Most of the time</asp:ListItem>
+                                            <asp:ListItem Text="Most or all of the time (5-7 days)" Value="3">Nearly all the time</asp:ListItem>
                                         </asp:RadioButtonList>
                                                </td></tr>
                                            </table>
