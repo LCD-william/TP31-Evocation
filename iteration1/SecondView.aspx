@@ -52,7 +52,15 @@
             <div class="index-sec1">
                 <div class="title">
                     <h3><span>Answer Score</span></h3>
-                    <p></p>
+                     <p style="font-size:45px;color:#699bf7; height:35px" align="center"> your test is over, thank you for your patience</p>
+                   <p style="font-size:35px;color:#699bf7; height:35px" align="center"> Minimal depression: 1-4</p>    
+                   <p style="font-size:35px;color:#699bf7; height:35px" align="center"> Mild depression: 5-9</p>
+                   <p style="font-size:35px;color:#699bf7; height:35px" align="center"> Moderate depression：10-14</p>
+                   <p style="font-size:35px;color:#699bf7; height:35px" align="center"> Moderately servere depression: 15-19</p>
+                   <p style="font-size:35px;color:#699bf7; height:35px" align="center"> servere depression: 20-27</p>
+
+                   <p style="font-size:35px;color:#699bf7; height:35px" align="center"> <asp:Label ID="Label1" runat="server"></asp:Label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="SecondReport.aspx" title="ViewPeport" style="color:red" target="_blank">ViewReport </a> </p>
+
                 </div>
                 <div class="wp">
                     <ul class="clearfix">
@@ -60,7 +68,7 @@
                             <div class="item-box1">
                                 <div class="inner-wp1">
                                     <p style="color:red; font-size:25px" >
-                                        <asp:Label ID="Label1" runat="server"></asp:Label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="SecondReport.aspx" title="ViewPeport" style="color:red" target="_blank">ViewReport </a> 
+                                        
                                     </p>
                                 </div>
                             </div>

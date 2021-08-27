@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="FirstView.aspx.cs" Inherits="iteration1_FirstView" %>
+﻿    <%@ Page Language="C#" AutoEventWireup="true" CodeFile="FirstView.aspx.cs" Inherits="iteration1_FirstView" %>
 
 <!DOCTYPE html>
 
@@ -53,21 +53,14 @@
             <div class="index-sec1">
                 <div class="title">
                     <h3><span>Answer Score</span></h3>
-                    <p></p>
+                   <p style="font-size:45px;color:#699bf7; height:35px" align="center"> your test is over, thank you for your patience</p>
+                   <p style="font-size:35px;color:#699bf7; height:35px" align="center"> Low risk: 0-13</p>
+                   <p style="font-size:35px;color:#699bf7; height:35px" align="center"> High Risk: 14-39</p>
+
+
+                      <p style="font-size:35px;color:#699bf7; height:35px" align="center">   <asp:Label ID="Label1" runat="server"></asp:Label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="FirstReport.aspx" title="ViewPeport" style="color:red" target="_blank">ViewReport </a> </p>
                 </div>
-                <div class="wp">
-                    <ul class="clearfix">
-                        <li>
-                            <div class="item-box1">
-                                <div class="inner-wp1">
-                                    <p style="color:red; font-size:25px" >
-                                        <asp:Label ID="Label1" runat="server"></asp:Label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="FirstReport.aspx" title="ViewPeport" style="color:red" target="_blank">ViewReport </a> 
-                                    </p>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
+                 
             </div>
 
         </div>

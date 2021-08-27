@@ -16,7 +16,7 @@ public partial class iteration1_FirstView : System.Web.UI.Page
                 Page.ClientScript.RegisterStartupScript(this.GetType(), "", "<script>alert('Data Load Fail ！');window.location.href='Index.aspx'</script>");
                 return;
             }
-            this.Label1.Text = "Score:" + Session["score"].ToString();
+            this.Label1.Text = "Your Score:" + Session["score"].ToString();
         }
     }
 }

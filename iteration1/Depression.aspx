@@ -113,7 +113,7 @@
 
             autoplay: {
 
-                delay: 8000,//switches every 8 seconds
+                delay: 8000,//8秒切换一次
                 disableOnInteraction: false,
 
             },
