@@ -57,12 +57,7 @@
                 <div class="wp">
                     <ul class="clearfix">
                         <li style="width: 100%">
-                             <div class="item-box">
-
-                                <p style="width: 100%; color: black" align="center">
-                                    Thinking about the past 2 weeks, to what extent have you found the following things a problem?
-                                </p>
-                            </div>
+                             
                             <div class="item-box">
                                 <div class="inner-wp" style="width: 99%">
                                     <p style="color:black">2. Finding no joy in life, or feeling like you never will again</p>
