@@ -12,7 +12,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
-   <div id="hd" class="clearfix">
+   <div id="hd" class="clearfix" style="background: #A3A3A3">
 		<a href="index.aspx" class="hd-logo fl">
 			<img src="../images/logo.png">
 		</a>
@@ -72,7 +72,7 @@
 
         </div>
 
-         <iframe height="400" width="100%" frameborder="no" src="https://nikitaahans.shinyapps.io/TP31_evocation_2/"> </iframe>
+         
    <div id="ft">		<div class="copyright">			<p class="wp">Copyright ©  All Rights Reserved.</p>		</div>
 	</div>
     </form>

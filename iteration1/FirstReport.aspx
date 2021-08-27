@@ -11,7 +11,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <div id="hd" class="clearfix">
+        <div id="hd" class="clearfix" style="background: #A3A3A3">
             <a href="index.aspx" class="hd-logo fl">
                 <img src="../images/logo.png">
             </a>
@@ -70,7 +70,8 @@
                         </li>
                         <li style="width: 100%">
                             <div class="item-box">
-                             <p style="width:80%">In recent years, there has been an increase in depression and a rapid rise in suicides among international students in Victoria. Before going abroad, they do not understand the huge differences between the education concept, classroom teaching style, high elimination rate and their own country's education and culture, as well as the language barrier, which often undermines the confidence of international students and creates great stress and loss of mental and psychological security, leading to depression. This assessment can test whether international students are depressed in terms of life and study.
+                             <p style="width:80%">Have Depression?
+In recent years, there has been an increase in depression and a rapid rise in suicides among international students in Victoria. Before going abroad, they do not understand the huge differences between the education concept, classroom teaching style, high elimination rate and their own country's education and culture, as well as the language barrier, which often undermines the confidence of international students and creates great stress and loss of mental and psychological security, leading to depression. This assessment can test whether international students are depressed in terms of life and study.
 Please open the test. Relax, it's easy and free. It gives immediate results.
                         </p>
                                    </div>

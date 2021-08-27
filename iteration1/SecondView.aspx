@@ -11,7 +11,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
-   <div id="hd" class="clearfix">
+   <div id="hd" class="clearfix" style="background: #A3A3A3">
 		<a href="index.aspx" class="hd-logo fl">
 			<img src="../images/logo.png">
 		</a>

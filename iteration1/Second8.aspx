@@ -58,7 +58,7 @@
                     <ul class="clearfix">
                         <li style="width: 100%">
                             <div class="item-box">
-                              <p style="width:100%"  align="left">Over the last 2 weeks, how often have you been bothered by any of the following problems?
+                              <p style="width:100%"  align="center">Over the last 2 weeks, how often have you been bothered by any of the following problems?
                                    </div>
                             <div class="item-box">
                                 <div class="inner-wp" style="width: 99%">

@@ -11,7 +11,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <div id="hd" class="clearfix">
+        <div id="hd" class="clearfix" style="background: #A3A3A3">
             <a href="index.aspx" class="hd-logo fl">
                 <img src="../images/logo.png">
             </a>
@@ -70,8 +70,9 @@
                         </li>
                         <li style="width: 100%">
                             <div class="item-box">
-                             <p style="width:80%">  TZung Self-Rating Depression Scale is a short, self-administered survey to quantify the depressed status of a patient. It has proven to be a valuable tool in the assessment of depressive disorders in a group of hospitalized inpatients. There are 20 items on the scale that rate the four common characteristics of depression: the pervasive effect, the physiological equivalents, other disturbances, and psychomotor activities.
-                        </p>
+                             <p style="width:80%"> Depression Level Test
+Depression is a potential killer for international students and it is destroying their brains. International students, who are at high risk of getting depressed, are going through an important transition from secondary education to higher education, which may be accompanied by loneliness, self-doubt, anxiety, and longing for the future; it also includes the stress of school and family as they are about to step into society and start paid work. If they are already suffering from depression, international students should actively face it and receive treatment. They must understand the severity of their condition and avoid staying immersed in extreme sadness to the point of reaching irreversible results.
+Please open the test. Relax, it's easy and free. It gives immediate results.
                                    </div>
                             <div class="item-box">
                                 <div class="inner-wp" style="width: 99%">
